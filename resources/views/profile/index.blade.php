@@ -9,7 +9,7 @@
                 <div class="headline col-md-10 mx-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="body mx-auto">名前：　{{ str_limit($headline->name, 20) }}</p>
+                            <p class="body mx-auto">名前年齢：　{{ str_limit($headline->name, 20) }}</p>
                         </div>
                         <div class="col-md-6">
                             <p class="body mx-auto">性別：　{{ str_limit($headline->gender, 20) }}</p>
